@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<font face="Arial Unicode M3">
+
+ <div><h1>-<p ALIGN="CENTER"> Programmeringsspråk: </h1></div>
+<head>
+<title>Søk i Programmeringsspråk</title>
+
+<meta http-equiv=Content-Type" content="text/html;charset=UTF-8"/>
+<title>Programmeringsspråk</title>
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8” />
+<style type="text/css">
+  body {
+    color: purple;
+    background-color: #d8da3d }
+    ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+      address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+  </style>
+  <script src="oppgave2.js">
+  </script> 
+  
+
+  </head>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="hjem.html"> HJEM </a>
+  <li><a href="kronologisk.html">kronologisk</a>
+  <li><a href="hierakisk.html">Hierakisk</a>
+  <li><a href="alfabetisk.html">alfabetisk</a>
+</ul>
+
+
+<form>
+
+		<p ALIGN="CENTER">
+
+		<front face="Arial Unicode M3">
+
+		<p ALIGN="CENTER">
+
+<select id="mydropdown" onchange="langlist()">
+    	<option value="ActionScript">ActionScript</option>
+		<option value="AppleScript">AppleScript</option>
+		<option value="Asp">Asp</option>
+		<option value="BASIC">BASIC</option>
+		<option value="C">C</option>
+		<option value="C++">C++</option>
+		<option value="Colojure">Colojure</option>
+		<option value="COBOL">COBOL</option>
+		<option value="ColdFusion">ColdFusion</option>
+		<option value="Erlang">Erlang</option>
+		<option value="Fortran">Fortran</option>
+		<option value="Groovy">Groovy</option>
+		<option value="Haskell">Haskell</option>
+		<option value="Java">Java</option>
+		<option value="JavaScript">JavaScript</option>
+		<option value="Lisp">Lisp</option>
+		<option value="Perl">Perl</option>
+		<option value="PHP">PHP</option>
+		<option value="Python">Python</option>
+		<option value="Ruby">Ruby</option>
+		<option value="Scala">Scala</option>
+		<option value="Scheme">Scheme</option>
+</select>
+<p align="center">Søk i programmeringsspråk: <input type="text" id="lang" size="20"></p>
+</form>
+<p align="center">Velkommen til en mystisk verden av programmeringsspråk!<span id="aggregator_name"></span></label>
+
+<script>
+
+function notEmpty(){
+
+
+
+var e =document.getElementById("field_6");
+
+var strUser=e.options{e.selectedIndex}.value;
+
+document.getElementById('aggragator_name').innerHTML = strUser;
+
+
+
+}
+
+notEmpty()
+
+
+
+		document.getElementById("first5").onchange = notEmpty;
+
+
+</script>
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Laget 18 september 2013<br>
+  av Rand.</address>
+</body>
+
+</html>
